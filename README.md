@@ -71,7 +71,7 @@ To use the PDEBench example ``examples_pde_bench.py``, you have to download the 
 
 
 ## VCNeF Architecture
-The following illustation shows the architecture of the VCNeF model for solving 2D PDEs.
+The following illustation shows the architecture of the VCNeF model for solving 2D time-dependent PDEs (e.g., Navier-Stokes equations).
 
 ![VCNeF Architecrture](img/vcnef_architecture.svg)
 
