@@ -16,7 +16,8 @@
 
 #
  
-This repository contains the official PyTorch implementation of the VCNeF model from the paper "**Vectorized Conditional Neural Fields: A Framework for Solving Time-dependent Parametric Partial Differential Equations**".
+This repository contains the official PyTorch implementation of the VCNeF model from the ICML'24 paper,  
+"[**Vectorized Conditional Neural Fields: A Framework for Solving Time-dependent Parametric Partial Differential Equations**](https://arxiv.org/abs/2406.03919)".
 
 ## Requirements
 
