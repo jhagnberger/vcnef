@@ -90,11 +90,20 @@ MIT licensed, except where otherwise stated. Please see [`LICENSE`](./LICENSE) f
 ## Citation
 If you find our project useful, please consider citing it.
 
-```bibtex
-@inproceedings{vcnef2024,
-author = {Hagnberger, Jan and Kalimuthu, Marimuthu and Musekamp, Daniel and Niepert, Mathias},
-title = {{Vectorized Conditional Neural Fields: A Framework for Solving Time-dependent Parametric Partial Differential Equations}},
-year = {2024},
-booktitle = {Proceedings of the 41st International Conference on Machine Learning (ICML 2024)}
+```
+@InProceedings{vcnef-hagnberger:2024,
+  title = 	 {{V}ectorized {C}onditional {Ne}ural {F}ields: A Framework for Solving Time-dependent Parametric Partial Differential Equations},
+  author =       {Hagnberger, Jan and Kalimuthu, Marimuthu and Musekamp, Daniel and Niepert, Mathias},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {17189--17223},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/hagnberger24a/hagnberger24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/hagnberger24a.html},
+  abstract = 	 {Transformer models are increasingly used for solving Partial Differential Equations (PDEs). Several adaptations have been proposed, all of which suffer from the typical problems of Transformers, such as quadratic memory and time complexity. Furthermore, all prevalent architectures for PDE solving lack at least one of several desirable properties of an ideal surrogate model, such as (i) generalization to PDE parameters not seen during training, (ii) spatial and temporal zero-shot super-resolution, (iii) continuous temporal extrapolation, (iv) support for 1D, 2D, and 3D PDEs, and (v) efficient inference for longer temporal rollouts. To address these limitations, we propose <em>Vectorized Conditional Neural Fields</em> (VCNeFs), which represent the solution of time-dependent PDEs as neural fields. Contrary to prior methods, however, VCNeFs compute, for a set of multiple spatio-temporal query points, their solutions in parallel and model their dependencies through attention mechanisms. Moreover, VCNeF can condition the neural field on both the initial conditions and the parameters of the PDEs. An extensive set of experiments demonstrates that VCNeFs are competitive with and often outperform existing ML-based surrogate models.}
 }
 ```
